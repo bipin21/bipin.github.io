@@ -31,7 +31,7 @@ const Main = () => {
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header />
-        <Greeting />
+//         <Greeting />
         <Skills />
         <StackProgress />
         <Education />
